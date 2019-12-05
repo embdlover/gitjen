@@ -17,4 +17,4 @@ mul.o: mul.c
 	$(cc) $(CFLAGS) mul.c
 
 clean:
-	rm -rf*o run
+	rm -rf *.o run
